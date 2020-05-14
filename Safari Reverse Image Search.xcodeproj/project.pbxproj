@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7246969F246DE79A00835E66 /* Safari_Reverse_Image_Search.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 7246969E246DE79A00835E66 /* Safari_Reverse_Image_Search.entitlements */; };
+		724696A1246DE79A00835E66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724696A0246DE79A00835E66 /* AppDelegate.swift */; };
+		724696A4246DE79A00835E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724696A2246DE79A00835E66 /* Main.storyboard */; };
+		724696A6246DE79A00835E66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724696A5246DE79A00835E66 /* ViewController.swift */; };
+		724696A8246DE79D00835E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 724696A7246DE79D00835E66 /* Assets.xcassets */; };
+		724696B3246DE79D00835E66 /* Safari_Reverse_Image_SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724696B2246DE79D00835E66 /* Safari_Reverse_Image_SearchTests.swift */; };
+		724696BE246DE79D00835E66 /* Safari_Reverse_Image_SearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724696BD246DE79D00835E66 /* Safari_Reverse_Image_SearchUITests.swift */; };
+		724696C5246DE79D00835E66 /* Safari Reverse Image Search Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 724696C4246DE79D00835E66 /* Safari Reverse Image Search Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		724696CA246DE79D00835E66 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724696C9246DE79D00835E66 /* Cocoa.framework */; };
+		724696CD246DE79D00835E66 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724696CC246DE79D00835E66 /* SafariExtensionHandler.swift */; };
+		724696CF246DE79D00835E66 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724696CE246DE79D00835E66 /* SafariExtensionViewController.swift */; };
+		724696D2246DE79D00835E66 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724696D0246DE79D00835E66 /* SafariExtensionViewController.xib */; };
+		724696D5246DE79D00835E66 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 724696D4246DE79D00835E66 /* script.js */; };
+		724696D7246DE79D00835E66 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 724696D6246DE79D00835E66 /* ToolbarItemIcon.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		724696AF246DE79D00835E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72469693246DE79A00835E66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7246969A246DE79A00835E66;
+			remoteInfo = "Safari Reverse Image Search";
+		};
+		724696BA246DE79D00835E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72469693246DE79A00835E66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7246969A246DE79A00835E66;
+			remoteInfo = "Safari Reverse Image Search";
+		};
+		724696C6246DE79D00835E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72469693246DE79A00835E66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 724696C3246DE79D00835E66;
+			remoteInfo = "Safari Reverse Image Search Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		724696DE246DE79D00835E66 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				724696C5246DE79D00835E66 /* Safari Reverse Image Search Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7246969B246DE79A00835E66 /* Safari Reverse Image Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safari Reverse Image Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7246969E246DE79A00835E66 /* Safari_Reverse_Image_Search.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Safari_Reverse_Image_Search.entitlements; sourceTree = "<group>"; };
+		724696A0246DE79A00835E66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		724696A3246DE79A00835E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		724696A5246DE79A00835E66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		724696A7246DE79D00835E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		724696A9246DE79D00835E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		724696AE246DE79D00835E66 /* Safari Reverse Image SearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safari Reverse Image SearchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		724696B2246DE79D00835E66 /* Safari_Reverse_Image_SearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safari_Reverse_Image_SearchTests.swift; sourceTree = "<group>"; };
+		724696B4246DE79D00835E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		724696B9246DE79D00835E66 /* Safari Reverse Image SearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safari Reverse Image SearchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		724696BD246DE79D00835E66 /* Safari_Reverse_Image_SearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safari_Reverse_Image_SearchUITests.swift; sourceTree = "<group>"; };
+		724696BF246DE79D00835E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		724696C4246DE79D00835E66 /* Safari Reverse Image Search Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Safari Reverse Image Search Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		724696C9246DE79D00835E66 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		724696CC246DE79D00835E66 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		724696CE246DE79D00835E66 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		724696D1246DE79D00835E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		724696D3246DE79D00835E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		724696D4246DE79D00835E66 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		724696D6246DE79D00835E66 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		724696D8246DE79D00835E66 /* Safari_Reverse_Image_Search_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Safari_Reverse_Image_Search_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72469698246DE79A00835E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724696AB246DE79D00835E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724696B6246DE79D00835E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724696C1246DE79D00835E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724696CA246DE79D00835E66 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72469692246DE79A00835E66 = {
+			isa = PBXGroup;
+			children = (
+				7246969D246DE79A00835E66 /* Safari Reverse Image Search */,
+				724696B1246DE79D00835E66 /* Safari Reverse Image SearchTests */,
+				724696BC246DE79D00835E66 /* Safari Reverse Image SearchUITests */,
+				724696CB246DE79D00835E66 /* Safari Reverse Image Search Extension */,
+				724696C8246DE79D00835E66 /* Frameworks */,
+				7246969C246DE79A00835E66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7246969C246DE79A00835E66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7246969B246DE79A00835E66 /* Safari Reverse Image Search.app */,
+				724696AE246DE79D00835E66 /* Safari Reverse Image SearchTests.xctest */,
+				724696B9246DE79D00835E66 /* Safari Reverse Image SearchUITests.xctest */,
+				724696C4246DE79D00835E66 /* Safari Reverse Image Search Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7246969D246DE79A00835E66 /* Safari Reverse Image Search */ = {
+			isa = PBXGroup;
+			children = (
+				7246969E246DE79A00835E66 /* Safari_Reverse_Image_Search.entitlements */,
+				724696A0246DE79A00835E66 /* AppDelegate.swift */,
+				724696A2246DE79A00835E66 /* Main.storyboard */,
+				724696A5246DE79A00835E66 /* ViewController.swift */,
+				724696A7246DE79D00835E66 /* Assets.xcassets */,
+				724696A9246DE79D00835E66 /* Info.plist */,
+			);
+			path = "Safari Reverse Image Search";
+			sourceTree = "<group>";
+		};
+		724696B1246DE79D00835E66 /* Safari Reverse Image SearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				724696B2246DE79D00835E66 /* Safari_Reverse_Image_SearchTests.swift */,
+				724696B4246DE79D00835E66 /* Info.plist */,
+			);
+			path = "Safari Reverse Image SearchTests";
+			sourceTree = "<group>";
+		};
+		724696BC246DE79D00835E66 /* Safari Reverse Image SearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				724696BD246DE79D00835E66 /* Safari_Reverse_Image_SearchUITests.swift */,
+				724696BF246DE79D00835E66 /* Info.plist */,
+			);
+			path = "Safari Reverse Image SearchUITests";
+			sourceTree = "<group>";
+		};
+		724696C8246DE79D00835E66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				724696C9246DE79D00835E66 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		724696CB246DE79D00835E66 /* Safari Reverse Image Search Extension */ = {
+			isa = PBXGroup;
+			children = (
+				724696CC246DE79D00835E66 /* SafariExtensionHandler.swift */,
+				724696CE246DE79D00835E66 /* SafariExtensionViewController.swift */,
+				724696D0246DE79D00835E66 /* SafariExtensionViewController.xib */,
+				724696D3246DE79D00835E66 /* Info.plist */,
+				724696D4246DE79D00835E66 /* script.js */,
+				724696D6246DE79D00835E66 /* ToolbarItemIcon.pdf */,
+				724696D8246DE79D00835E66 /* Safari_Reverse_Image_Search_Extension.entitlements */,
+			);
+			path = "Safari Reverse Image Search Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7246969A246DE79A00835E66 /* Safari Reverse Image Search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 724696DF246DE79D00835E66 /* Build configuration list for PBXNativeTarget "Safari Reverse Image Search" */;
+			buildPhases = (
+				72469697246DE79A00835E66 /* Sources */,
+				72469698246DE79A00835E66 /* Frameworks */,
+				72469699246DE79A00835E66 /* Resources */,
+				724696DE246DE79D00835E66 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				724696C7246DE79D00835E66 /* PBXTargetDependency */,
+			);
+			name = "Safari Reverse Image Search";
+			productName = "Safari Reverse Image Search";
+			productReference = 7246969B246DE79A00835E66 /* Safari Reverse Image Search.app */;
+			productType = "com.apple.product-type.application";
+		};
+		724696AD246DE79D00835E66 /* Safari Reverse Image SearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 724696E2246DE79D00835E66 /* Build configuration list for PBXNativeTarget "Safari Reverse Image SearchTests" */;
+			buildPhases = (
+				724696AA246DE79D00835E66 /* Sources */,
+				724696AB246DE79D00835E66 /* Frameworks */,
+				724696AC246DE79D00835E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				724696B0246DE79D00835E66 /* PBXTargetDependency */,
+			);
+			name = "Safari Reverse Image SearchTests";
+			productName = "Safari Reverse Image SearchTests";
+			productReference = 724696AE246DE79D00835E66 /* Safari Reverse Image SearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		724696B8246DE79D00835E66 /* Safari Reverse Image SearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 724696E5246DE79D00835E66 /* Build configuration list for PBXNativeTarget "Safari Reverse Image SearchUITests" */;
+			buildPhases = (
+				724696B5246DE79D00835E66 /* Sources */,
+				724696B6246DE79D00835E66 /* Frameworks */,
+				724696B7246DE79D00835E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				724696BB246DE79D00835E66 /* PBXTargetDependency */,
+			);
+			name = "Safari Reverse Image SearchUITests";
+			productName = "Safari Reverse Image SearchUITests";
+			productReference = 724696B9246DE79D00835E66 /* Safari Reverse Image SearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		724696C3246DE79D00835E66 /* Safari Reverse Image Search Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 724696DB246DE79D00835E66 /* Build configuration list for PBXNativeTarget "Safari Reverse Image Search Extension" */;
+			buildPhases = (
+				724696C0246DE79D00835E66 /* Sources */,
+				724696C1246DE79D00835E66 /* Frameworks */,
+				724696C2246DE79D00835E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Safari Reverse Image Search Extension";
+			productName = "Safari Reverse Image Search Extension";
+			productReference = 724696C4246DE79D00835E66 /* Safari Reverse Image Search Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72469693246DE79A00835E66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Rohit Batra";
+				TargetAttributes = {
+					7246969A246DE79A00835E66 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					724696AD246DE79D00835E66 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 7246969A246DE79A00835E66;
+					};
+					724696B8246DE79D00835E66 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 7246969A246DE79A00835E66;
+					};
+					724696C3246DE79D00835E66 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 72469696246DE79A00835E66 /* Build configuration list for PBXProject "Safari Reverse Image Search" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72469692246DE79A00835E66;
+			productRefGroup = 7246969C246DE79A00835E66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7246969A246DE79A00835E66 /* Safari Reverse Image Search */,
+				724696AD246DE79D00835E66 /* Safari Reverse Image SearchTests */,
+				724696B8246DE79D00835E66 /* Safari Reverse Image SearchUITests */,
+				724696C3246DE79D00835E66 /* Safari Reverse Image Search Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72469699246DE79A00835E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7246969F246DE79A00835E66 /* Safari_Reverse_Image_Search.entitlements in Resources */,
+				724696A8246DE79D00835E66 /* Assets.xcassets in Resources */,
+				724696A4246DE79A00835E66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724696AC246DE79D00835E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724696B7246DE79D00835E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724696C2246DE79D00835E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724696D7246DE79D00835E66 /* ToolbarItemIcon.pdf in Resources */,
+				724696D2246DE79D00835E66 /* SafariExtensionViewController.xib in Resources */,
+				724696D5246DE79D00835E66 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72469697246DE79A00835E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724696A6246DE79A00835E66 /* ViewController.swift in Sources */,
+				724696A1246DE79A00835E66 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724696AA246DE79D00835E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724696B3246DE79D00835E66 /* Safari_Reverse_Image_SearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724696B5246DE79D00835E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724696BE246DE79D00835E66 /* Safari_Reverse_Image_SearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724696C0246DE79D00835E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724696CF246DE79D00835E66 /* SafariExtensionViewController.swift in Sources */,
+				724696CD246DE79D00835E66 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		724696B0246DE79D00835E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7246969A246DE79A00835E66 /* Safari Reverse Image Search */;
+			targetProxy = 724696AF246DE79D00835E66 /* PBXContainerItemProxy */;
+		};
+		724696BB246DE79D00835E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7246969A246DE79A00835E66 /* Safari Reverse Image Search */;
+			targetProxy = 724696BA246DE79D00835E66 /* PBXContainerItemProxy */;
+		};
+		724696C7246DE79D00835E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 724696C3246DE79D00835E66 /* Safari Reverse Image Search Extension */;
+			targetProxy = 724696C6246DE79D00835E66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		724696A2246DE79A00835E66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				724696A3246DE79A00835E66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		724696D0246DE79D00835E66 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				724696D1246DE79D00835E66 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		724696D9246DE79D00835E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		724696DA246DE79D00835E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		724696DC246DE79D00835E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Safari Reverse Image Search Extension/Safari_Reverse_Image_Search_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59L5AB88N5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Safari Reverse Image Search Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RohitBatra.Safari-Reverse-Image-Search-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		724696DD246DE79D00835E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Safari Reverse Image Search Extension/Safari_Reverse_Image_Search_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59L5AB88N5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Safari Reverse Image Search Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RohitBatra.Safari-Reverse-Image-Search-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		724696E0246DE79D00835E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Safari Reverse Image Search/Safari_Reverse_Image_Search.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 59L5AB88N5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Safari Reverse Image Search/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RohitBatra.Safari-Reverse-Image-Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		724696E1246DE79D00835E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Safari Reverse Image Search/Safari_Reverse_Image_Search.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 59L5AB88N5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Safari Reverse Image Search/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RohitBatra.Safari-Reverse-Image-Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		724696E3246DE79D00835E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 59L5AB88N5;
+				INFOPLIST_FILE = "Safari Reverse Image SearchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RohitBatra.Safari-Reverse-Image-SearchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Safari Reverse Image Search.app/Contents/MacOS/Safari Reverse Image Search";
+			};
+			name = Debug;
+		};
+		724696E4246DE79D00835E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 59L5AB88N5;
+				INFOPLIST_FILE = "Safari Reverse Image SearchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RohitBatra.Safari-Reverse-Image-SearchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Safari Reverse Image Search.app/Contents/MacOS/Safari Reverse Image Search";
+			};
+			name = Release;
+		};
+		724696E6246DE79D00835E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 59L5AB88N5;
+				INFOPLIST_FILE = "Safari Reverse Image SearchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RohitBatra.Safari-Reverse-Image-SearchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Safari Reverse Image Search";
+			};
+			name = Debug;
+		};
+		724696E7246DE79D00835E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 59L5AB88N5;
+				INFOPLIST_FILE = "Safari Reverse Image SearchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RohitBatra.Safari-Reverse-Image-SearchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Safari Reverse Image Search";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72469696246DE79A00835E66 /* Build configuration list for PBXProject "Safari Reverse Image Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724696D9246DE79D00835E66 /* Debug */,
+				724696DA246DE79D00835E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		724696DB246DE79D00835E66 /* Build configuration list for PBXNativeTarget "Safari Reverse Image Search Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724696DC246DE79D00835E66 /* Debug */,
+				724696DD246DE79D00835E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		724696DF246DE79D00835E66 /* Build configuration list for PBXNativeTarget "Safari Reverse Image Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724696E0246DE79D00835E66 /* Debug */,
+				724696E1246DE79D00835E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		724696E2246DE79D00835E66 /* Build configuration list for PBXNativeTarget "Safari Reverse Image SearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724696E3246DE79D00835E66 /* Debug */,
+				724696E4246DE79D00835E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		724696E5246DE79D00835E66 /* Build configuration list for PBXNativeTarget "Safari Reverse Image SearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724696E6246DE79D00835E66 /* Debug */,
+				724696E7246DE79D00835E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72469693246DE79A00835E66 /* Project object */;
+}
