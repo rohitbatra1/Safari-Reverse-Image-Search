@@ -21,6 +21,7 @@
 		724696D2246DE79D00835E66 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724696D0246DE79D00835E66 /* SafariExtensionViewController.xib */; };
 		724696D5246DE79D00835E66 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 724696D4246DE79D00835E66 /* script.js */; };
 		724696D7246DE79D00835E66 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 724696D6246DE79D00835E66 /* ToolbarItemIcon.pdf */; };
+		724696E9246DE92E00835E66 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724696E8246DE92E00835E66 /* ContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		724696D4246DE79D00835E66 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		724696D6246DE79D00835E66 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		724696D8246DE79D00835E66 /* Safari_Reverse_Image_Search_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Safari_Reverse_Image_Search_Extension.entitlements; sourceTree = "<group>"; };
+		724696E8246DE92E00835E66 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				724696A0246DE79A00835E66 /* AppDelegate.swift */,
 				724696A2246DE79A00835E66 /* Main.storyboard */,
 				724696A5246DE79A00835E66 /* ViewController.swift */,
+				724696E8246DE92E00835E66 /* ContactView.swift */,
 				724696A7246DE79D00835E66 /* Assets.xcassets */,
 				724696A9246DE79D00835E66 /* Info.plist */,
 			);
@@ -360,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				724696A6246DE79A00835E66 /* ViewController.swift in Sources */,
+				724696E9246DE92E00835E66 /* ContactView.swift in Sources */,
 				724696A1246DE79A00835E66 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
