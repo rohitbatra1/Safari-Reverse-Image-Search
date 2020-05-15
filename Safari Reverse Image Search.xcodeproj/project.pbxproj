@@ -21,7 +21,9 @@
 		724696D2246DE79D00835E66 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724696D0246DE79D00835E66 /* SafariExtensionViewController.xib */; };
 		724696D5246DE79D00835E66 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 724696D4246DE79D00835E66 /* script.js */; };
 		724696D7246DE79D00835E66 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 724696D6246DE79D00835E66 /* ToolbarItemIcon.pdf */; };
-		724696E9246DE92E00835E66 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724696E8246DE92E00835E66 /* ContactView.swift */; };
+		72539643246F21E600E18791 /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72539642246F21E600E18791 /* Contact.storyboard */; };
+		72539645246F221300E18791 /* ContactWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72539644246F221300E18791 /* ContactWindowController.swift */; };
+		72539647246F23CE00E18791 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72539646246F23CE00E18791 /* ContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,7 +87,9 @@
 		724696D4246DE79D00835E66 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		724696D6246DE79D00835E66 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		724696D8246DE79D00835E66 /* Safari_Reverse_Image_Search_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Safari_Reverse_Image_Search_Extension.entitlements; sourceTree = "<group>"; };
-		724696E8246DE92E00835E66 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		72539642246F21E600E18791 /* Contact.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Contact.storyboard; sourceTree = "<group>"; };
+		72539644246F221300E18791 /* ContactWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactWindowController.swift; sourceTree = "<group>"; };
+		72539646246F23CE00E18791 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,8 +154,8 @@
 				7246969E246DE79A00835E66 /* Safari_Reverse_Image_Search.entitlements */,
 				724696A0246DE79A00835E66 /* AppDelegate.swift */,
 				724696A2246DE79A00835E66 /* Main.storyboard */,
+				72539641246F215500E18791 /* Contact */,
 				724696A5246DE79A00835E66 /* ViewController.swift */,
-				724696E8246DE92E00835E66 /* ContactView.swift */,
 				724696A7246DE79D00835E66 /* Assets.xcassets */,
 				724696A9246DE79D00835E66 /* Info.plist */,
 			);
@@ -196,6 +200,16 @@
 				724696D8246DE79D00835E66 /* Safari_Reverse_Image_Search_Extension.entitlements */,
 			);
 			path = "Safari Reverse Image Search Extension";
+			sourceTree = "<group>";
+		};
+		72539641246F215500E18791 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				72539642246F21E600E18791 /* Contact.storyboard */,
+				72539646246F23CE00E18791 /* ContactViewController.swift */,
+				72539644246F221300E18791 /* ContactWindowController.swift */,
+			);
+			path = Contact;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +320,10 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				ja,
+				es,
+				fr,
 			);
 			mainGroup = 72469692246DE79A00835E66;
 			productRefGroup = 7246969C246DE79A00835E66 /* Products */;
@@ -326,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7246969F246DE79A00835E66 /* Safari_Reverse_Image_Search.entitlements in Resources */,
+				72539643246F21E600E18791 /* Contact.storyboard in Resources */,
 				724696A8246DE79D00835E66 /* Assets.xcassets in Resources */,
 				724696A4246DE79A00835E66 /* Main.storyboard in Resources */,
 			);
@@ -362,8 +381,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72539645246F221300E18791 /* ContactWindowController.swift in Sources */,
+				72539647246F23CE00E18791 /* ContactViewController.swift in Sources */,
 				724696A6246DE79A00835E66 /* ViewController.swift in Sources */,
-				724696E9246DE92E00835E66 /* ContactView.swift in Sources */,
 				724696A1246DE79A00835E66 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
