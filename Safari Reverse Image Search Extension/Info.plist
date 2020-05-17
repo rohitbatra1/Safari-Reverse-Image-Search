@@ -35,6 +35,15 @@
 				<string>script.js</string>
 			</dict>
 		</array>
+		<key>SFSafariContextMenu</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>Google</string>
+				<key>Text</key>
+				<string>Search Image with Google</string>
+			</dict>
+		</array>
 		<key>SFSafariToolbarItem</key>
 		<dict>
 			<key>Action</key>
@@ -48,12 +57,8 @@
 		</dict>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
-			<key>Allowed Domains</key>
-			<array>
-				<string>*.webkit.org</string>
-			</array>
 			<key>Level</key>
-			<string>Some</string>
+			<string>All</string>
 		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
