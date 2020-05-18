@@ -192,10 +192,10 @@
 			isa = PBXGroup;
 			children = (
 				724696CC246DE79D00835E66 /* SafariExtensionHandler.swift */,
+				724696D4246DE79D00835E66 /* script.js */,
 				724696CE246DE79D00835E66 /* SafariExtensionViewController.swift */,
 				724696D0246DE79D00835E66 /* SafariExtensionViewController.xib */,
 				724696D3246DE79D00835E66 /* Info.plist */,
-				724696D4246DE79D00835E66 /* script.js */,
 				724696D6246DE79D00835E66 /* ToolbarItemIcon.pdf */,
 				724696D8246DE79D00835E66 /* Safari_Reverse_Image_Search_Extension.entitlements */,
 			);
