@@ -28,6 +28,36 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
         validationHandler(true, "")
     }
     
+    override func validateContextMenuItem(withCommand command: String, in page: SFSafariPage, userInfo: [String : Any]? = nil, validationHandler: @escaping (Bool, String?) -> Void) {
+        
+//        show if image is selected
+        validationHandler(false, nil)
+        
+//        hide menu item if image is not selected
+//        validationHandler(true, nil)
+
+    }
+    
+    override func contextMenuItemSelected(withCommand command: String, in page: SFSafariPage, userInfo: [String : Any]? = nil) {
+        
+        if (command == "Google"){
+            
+            //Open Google.com
+            let myUrl = URL(string: "https://google.com")!
+
+
+            // This grabs the active window.
+            SFSafariApplication.getActiveWindow { (activeWindow) in
+
+                    // Request a new tab on the active window, with the URL we want.
+                    activeWindow?.openTab(with: myUrl, makeActiveIfPossible: true, completionHandler: {_ in
+                        // Perform some action here after the page loads if you'd like.
+                    })
+                }
+        }
+        
+    }
+    
     override func popoverViewController() -> SFSafariExtensionViewController {
         return SafariExtensionViewController.shared
     }
