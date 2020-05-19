@@ -42,8 +42,9 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
         
         if (command == "Google"){
             
-            //Open Google.com
-            let myUrl = URL(string: "https://google.com")!
+            let theLink = "http://images.google.com/searchbyimage?image_url="
+//            theLink += imageLink
+            let myUrl = URL(string: theLink)!
 
 
             // This grabs the active window.

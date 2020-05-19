@@ -7,17 +7,17 @@ function setup(){
 function handleContextMenu(event) {
     console.log("handleContextMenu", event);
     
-//    extract image data then send to ExensionHandler
+//    extract image URL
     var image = {};
-    
     if (event.target){
-        image = getImage(event.target);
+        image = getImageURL(event.target);
     }
     
+    //send image URL to extensionHandler
     safari.extension.setContextMenuEventUserInfo(event, image);
 }
 
-function getImage(node){
+function getImageURL(node){
     
 }
 
