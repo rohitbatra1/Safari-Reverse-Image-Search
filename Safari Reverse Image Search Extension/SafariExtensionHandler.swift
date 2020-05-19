@@ -54,7 +54,6 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
 
                     // Request a new tab on the active window, with the URL we want.
                     activeWindow?.openTab(with: myUrl, makeActiveIfPossible: true, completionHandler: {_ in
-                        // Perform some action here after the page loads if you'd like.
                     })
                 }
         }

@@ -19,7 +19,10 @@ function handleContextMenu(event) {
 
 function getImageURL(node){
     var data = {};
-    data['url'] = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/560px-PNG_transparency_demonstration_1.png";
+    //get actual image URL
+    if (event.target.nodeName == "IMG"){
+        data['url'] = event.target.src;
+    }
     return data;
 }
 
