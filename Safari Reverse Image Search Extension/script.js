@@ -19,7 +19,7 @@ function handleContextMenu(event) {
 
 function getImageURL(node){
     var data = {};
-    data['url'] = "https://cdn.vox-cdn.com/thumbor/6pFo7mQ501PLVo5Zkwq9NpxPEBM=/0x0:4000x2667/1820x1213/filters:focal(1680x1014:2320x1654)/cdn.vox-cdn.com/uploads/chorus_image/image/66812403/520557826.jpg.0.jpg";
+    data['url'] = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/560px-PNG_transparency_demonstration_1.png";
     return data;
 }
 
