@@ -42,8 +42,10 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
         
         if (command == "Google"){
             
-            let theLink = "http://images.google.com/searchbyimage?image_url="
-//            theLink += imageLink
+            
+            var theLink = "http://images.google.com/searchbyimage?image_url="
+            let imageLink = userInfo!["url"]
+            theLink += imageLink as! String
             let myUrl = URL(string: theLink)!
 
 
