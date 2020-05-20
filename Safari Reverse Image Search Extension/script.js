@@ -19,9 +19,11 @@ function handleContextMenu(event) {
 
 function getImageURL(node){
     var data = {};
+    
     //get image data
     data['isImage'] = event.target.nodeName;
     data['url'] = event.target.src;
+    
     return data;
 }
 
