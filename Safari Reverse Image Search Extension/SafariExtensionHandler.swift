@@ -31,10 +31,13 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
     override func validateContextMenuItem(withCommand command: String, in page: SFSafariPage, userInfo: [String : Any]? = nil, validationHandler: @escaping (Bool, String?) -> Void) {
         
 //        show if image is selected
-        validationHandler(false, nil)
-        
-//        hide menu item if image is not selected
-//        validationHandler(true, nil)
+        if (userInfo!["isImage"] as! String == "IMG"){
+            validationHandler(false, nil)
+        }
+        else{
+//            hide menu item if image is not selected
+            validationHandler(true, nil)
+        }
 
     }
     

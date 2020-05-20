@@ -7,22 +7,21 @@ function setup(){
 function handleContextMenu(event) {
     console.log("handleContextMenu", event);
     
-//    extract image URL
-    var image = {};
+//    extract image data
+    var imageData = {};
     if (event.target){
-        image = getImageURL(event.target);
+        imageData = getImageURL(event.target);
     }
-    
+
     //send image URL to extensionHandler
-    safari.extension.setContextMenuEventUserInfo(event, image);
+    safari.extension.setContextMenuEventUserInfo(event, imageData);
 }
 
 function getImageURL(node){
     var data = {};
-    //get actual image URL
-    if (event.target.nodeName == "IMG"){
-        data['url'] = event.target.src;
-    }
+    //get image data
+    data['isImage'] = event.target.nodeName;
+    data['url'] = event.target.src;
     return data;
 }
 
