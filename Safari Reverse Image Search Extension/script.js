@@ -1,4 +1,4 @@
-
+//add necessary event listeners.
 function setup(){
     document.addEventListener("contextmenu", handleContextMenu, false);
     safari.self.addEventListener("message", handleMessage);
@@ -13,14 +13,14 @@ function handleContextMenu(event) {
         imageData = getImageURL(event.target);
     }
 
-    //send image URL to extensionHandler
+//    send image URL to extensionHandler
     safari.extension.setContextMenuEventUserInfo(event, imageData);
 }
 
 function getImageURL(node){
     var data = {};
     
-    //get image data
+//    get image data
     data['isImage'] = event.target.nodeName;
     data['url'] = event.target.src;
     
@@ -33,6 +33,6 @@ function handleMessage(event) {
 }
 
 document.addEventListener("DOMContentLoaded", function(event) {
-//    safari.extension.dispatchMessage("Hello World!");
+//    setup once web page has loaded.
     setup()
 });

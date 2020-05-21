@@ -17,25 +17,21 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
         }
     }
     
-    override func toolbarItemClicked(in window: SFSafariWindow) {
-        // This method will be called when your toolbar item is clicked.
-        NSLog("The extension's toolbar item was clicked")
-        
-    }
-    
-    override func validateToolbarItem(in window: SFSafariWindow, validationHandler: @escaping ((Bool, String) -> Void)) {
-        // This is called when Safari's state changed in some way that would require the extension's toolbar item to be validated again.
-        validationHandler(true, "")
-    }
-    
     override func validateContextMenuItem(withCommand command: String, in page: SFSafariPage, userInfo: [String : Any]? = nil, validationHandler: @escaping (Bool, String?) -> Void) {
-        
-//        show if image is selected
+
+//        show menu option if image is selected and image is not embedded
         if (userInfo!["isImage"] as! String == "IMG"){
-            validationHandler(false, nil)
+            let x = userInfo!["url"] as! String
+            
+            if (!x.contains("data:image")){
+                validationHandler(false, nil)
+            }
+            else{
+                validationHandler(true, nil)
+            }
         }
         else{
-//            hide menu item if image is not selected
+//            hide menu option if image is not selected
             validationHandler(true, nil)
         }
 
@@ -43,18 +39,18 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
     
     override func contextMenuItemSelected(withCommand command: String, in page: SFSafariPage, userInfo: [String : Any]? = nil) {
         
+//        Handling when context menu option is selected.
         if (command == "Google"){
             
-            
-            var theLink = "http://images.google.com/searchbyimage?image_url="
+            var imageSearch = "http://images.google.com/searchbyimage?image_url="
             let imageLink = userInfo!["url"]
-            theLink += imageLink as! String
-            let myUrl = URL(string: theLink)!
+            imageSearch += imageLink as! String
+            let myUrl = URL(string: imageSearch)!
 
-
+            
             // This grabs the active window.
             SFSafariApplication.getActiveWindow { (activeWindow) in
-
+                
                     // Request a new tab on the active window, with the URL we want.
                     activeWindow?.openTab(with: myUrl, makeActiveIfPossible: true, completionHandler: {_ in
                     })
