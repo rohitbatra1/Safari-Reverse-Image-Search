@@ -46,9 +46,7 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
             var imageLink = userInfo!["url"] as! String
             
             //percent encode image URL
-            var allowedQueryParamAndKey = NSCharacterSet.urlQueryAllowed
-            allowedQueryParamAndKey.remove(charactersIn: ";/?:@&=+$, ")
-            imageLink = imageLink.addingPercentEncoding(withAllowedCharacters: allowedQueryParamAndKey)!
+            imageLink = imageLink.addingPercentEncoding(withAllowedCharacters: .alphanumerics)!
             
             imageSearch += imageLink
             let myUrl = URL(string: imageSearch)!
