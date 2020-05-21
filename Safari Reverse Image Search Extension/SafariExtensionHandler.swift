@@ -43,8 +43,14 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
         if (command == "Google"){
             
             var imageSearch = "http://images.google.com/searchbyimage?image_url="
-            let imageLink = userInfo!["url"]
-            imageSearch += imageLink as! String
+            var imageLink = userInfo!["url"] as! String
+            
+            //percent encode image URL
+            var allowedQueryParamAndKey = NSCharacterSet.urlQueryAllowed
+            allowedQueryParamAndKey.remove(charactersIn: ";/?:@&=+$, ")
+            imageLink = imageLink.addingPercentEncoding(withAllowedCharacters: allowedQueryParamAndKey)!
+            
+            imageSearch += imageLink
             let myUrl = URL(string: imageSearch)!
 
             
