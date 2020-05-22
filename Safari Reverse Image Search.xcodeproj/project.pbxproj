@@ -12,8 +12,6 @@
 		724696A4246DE79A00835E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724696A2246DE79A00835E66 /* Main.storyboard */; };
 		724696A6246DE79A00835E66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724696A5246DE79A00835E66 /* ViewController.swift */; };
 		724696A8246DE79D00835E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 724696A7246DE79D00835E66 /* Assets.xcassets */; };
-		724696B3246DE79D00835E66 /* Safari_Reverse_Image_SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724696B2246DE79D00835E66 /* Safari_Reverse_Image_SearchTests.swift */; };
-		724696BE246DE79D00835E66 /* Safari_Reverse_Image_SearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724696BD246DE79D00835E66 /* Safari_Reverse_Image_SearchUITests.swift */; };
 		724696C5246DE79D00835E66 /* Safari Reverse Image Search Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 724696C4246DE79D00835E66 /* Safari Reverse Image Search Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		724696CA246DE79D00835E66 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724696C9246DE79D00835E66 /* Cocoa.framework */; };
 		724696CD246DE79D00835E66 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724696CC246DE79D00835E66 /* SafariExtensionHandler.swift */; };
@@ -72,11 +70,7 @@
 		724696A7246DE79D00835E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		724696A9246DE79D00835E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		724696AE246DE79D00835E66 /* Safari Reverse Image SearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safari Reverse Image SearchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		724696B2246DE79D00835E66 /* Safari_Reverse_Image_SearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safari_Reverse_Image_SearchTests.swift; sourceTree = "<group>"; };
-		724696B4246DE79D00835E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		724696B9246DE79D00835E66 /* Safari Reverse Image SearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safari Reverse Image SearchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		724696BD246DE79D00835E66 /* Safari_Reverse_Image_SearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safari_Reverse_Image_SearchUITests.swift; sourceTree = "<group>"; };
-		724696BF246DE79D00835E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		724696C4246DE79D00835E66 /* Safari Reverse Image Search Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Safari Reverse Image Search Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		724696C9246DE79D00835E66 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		724696CC246DE79D00835E66 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
@@ -127,8 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				7246969D246DE79A00835E66 /* Safari Reverse Image Search */,
-				724696B1246DE79D00835E66 /* Safari Reverse Image SearchTests */,
-				724696BC246DE79D00835E66 /* Safari Reverse Image SearchUITests */,
 				724696CB246DE79D00835E66 /* Safari Reverse Image Search Extension */,
 				724696C8246DE79D00835E66 /* Frameworks */,
 				7246969C246DE79A00835E66 /* Products */,
@@ -158,24 +150,6 @@
 				724696A9246DE79D00835E66 /* Info.plist */,
 			);
 			path = "Safari Reverse Image Search";
-			sourceTree = "<group>";
-		};
-		724696B1246DE79D00835E66 /* Safari Reverse Image SearchTests */ = {
-			isa = PBXGroup;
-			children = (
-				724696B2246DE79D00835E66 /* Safari_Reverse_Image_SearchTests.swift */,
-				724696B4246DE79D00835E66 /* Info.plist */,
-			);
-			path = "Safari Reverse Image SearchTests";
-			sourceTree = "<group>";
-		};
-		724696BC246DE79D00835E66 /* Safari Reverse Image SearchUITests */ = {
-			isa = PBXGroup;
-			children = (
-				724696BD246DE79D00835E66 /* Safari_Reverse_Image_SearchUITests.swift */,
-				724696BF246DE79D00835E66 /* Info.plist */,
-			);
-			path = "Safari Reverse Image SearchUITests";
 			sourceTree = "<group>";
 		};
 		724696C8246DE79D00835E66 /* Frameworks */ = {
@@ -388,7 +362,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				724696B3246DE79D00835E66 /* Safari_Reverse_Image_SearchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +369,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				724696BE246DE79D00835E66 /* Safari_Reverse_Image_SearchUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
