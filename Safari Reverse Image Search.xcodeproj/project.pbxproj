@@ -22,20 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		724696AF246DE79D00835E66 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 72469693246DE79A00835E66 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7246969A246DE79A00835E66;
-			remoteInfo = "Safari Reverse Image Search";
-		};
-		724696BA246DE79D00835E66 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 72469693246DE79A00835E66 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7246969A246DE79A00835E66;
-			remoteInfo = "Safari Reverse Image Search";
-		};
 		724696C6246DE79D00835E66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 72469693246DE79A00835E66 /* Project object */;
@@ -67,8 +53,6 @@
 		724696A5246DE79A00835E66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		724696A7246DE79D00835E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		724696A9246DE79D00835E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		724696AE246DE79D00835E66 /* Safari Reverse Image SearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safari Reverse Image SearchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		724696B9246DE79D00835E66 /* Safari Reverse Image SearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safari Reverse Image SearchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		724696C4246DE79D00835E66 /* Safari Reverse Image Search Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Safari Reverse Image Search Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		724696C9246DE79D00835E66 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		724696CC246DE79D00835E66 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
@@ -82,20 +66,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		72469698246DE79A00835E66 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		724696AB246DE79D00835E66 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		724696B6246DE79D00835E66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -127,8 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				7246969B246DE79A00835E66 /* Safari Reverse Image Search.app */,
-				724696AE246DE79D00835E66 /* Safari Reverse Image SearchTests.xctest */,
-				724696B9246DE79D00835E66 /* Safari Reverse Image SearchUITests.xctest */,
 				724696C4246DE79D00835E66 /* Safari Reverse Image Search Extension.appex */,
 			);
 			name = Products;
@@ -199,42 +167,6 @@
 			productReference = 7246969B246DE79A00835E66 /* Safari Reverse Image Search.app */;
 			productType = "com.apple.product-type.application";
 		};
-		724696AD246DE79D00835E66 /* Safari Reverse Image SearchTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 724696E2246DE79D00835E66 /* Build configuration list for PBXNativeTarget "Safari Reverse Image SearchTests" */;
-			buildPhases = (
-				724696AA246DE79D00835E66 /* Sources */,
-				724696AB246DE79D00835E66 /* Frameworks */,
-				724696AC246DE79D00835E66 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				724696B0246DE79D00835E66 /* PBXTargetDependency */,
-			);
-			name = "Safari Reverse Image SearchTests";
-			productName = "Safari Reverse Image SearchTests";
-			productReference = 724696AE246DE79D00835E66 /* Safari Reverse Image SearchTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		724696B8246DE79D00835E66 /* Safari Reverse Image SearchUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 724696E5246DE79D00835E66 /* Build configuration list for PBXNativeTarget "Safari Reverse Image SearchUITests" */;
-			buildPhases = (
-				724696B5246DE79D00835E66 /* Sources */,
-				724696B6246DE79D00835E66 /* Frameworks */,
-				724696B7246DE79D00835E66 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				724696BB246DE79D00835E66 /* PBXTargetDependency */,
-			);
-			name = "Safari Reverse Image SearchUITests";
-			productName = "Safari Reverse Image SearchUITests";
-			productReference = 724696B9246DE79D00835E66 /* Safari Reverse Image SearchUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		724696C3246DE79D00835E66 /* Safari Reverse Image Search Extension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 724696DB246DE79D00835E66 /* Build configuration list for PBXNativeTarget "Safari Reverse Image Search Extension" */;
@@ -265,14 +197,6 @@
 					7246969A246DE79A00835E66 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
-					724696AD246DE79D00835E66 = {
-						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = 7246969A246DE79A00835E66;
-					};
-					724696B8246DE79D00835E66 = {
-						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = 7246969A246DE79A00835E66;
-					};
 					724696C3246DE79D00835E66 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
@@ -296,8 +220,6 @@
 			projectRoot = "";
 			targets = (
 				7246969A246DE79A00835E66 /* Safari Reverse Image Search */,
-				724696AD246DE79D00835E66 /* Safari Reverse Image SearchTests */,
-				724696B8246DE79D00835E66 /* Safari Reverse Image SearchUITests */,
 				724696C3246DE79D00835E66 /* Safari Reverse Image Search Extension */,
 			);
 		};
@@ -312,20 +234,6 @@
 				72539643246F21E600E18791 /* Contact.storyboard in Resources */,
 				724696A8246DE79D00835E66 /* Assets.xcassets in Resources */,
 				724696A4246DE79A00835E66 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		724696AC246DE79D00835E66 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		724696B7246DE79D00835E66 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,20 +259,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		724696AA246DE79D00835E66 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		724696B5246DE79D00835E66 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		724696C0246DE79D00835E66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,16 +270,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		724696B0246DE79D00835E66 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7246969A246DE79A00835E66 /* Safari Reverse Image Search */;
-			targetProxy = 724696AF246DE79D00835E66 /* PBXContainerItemProxy */;
-		};
-		724696BB246DE79D00835E66 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7246969A246DE79A00835E66 /* Safari Reverse Image Search */;
-			targetProxy = 724696BA246DE79D00835E66 /* PBXContainerItemProxy */;
-		};
 		724696C7246DE79D00835E66 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 724696C3246DE79D00835E66 /* Safari Reverse Image Search Extension */;
@@ -524,7 +408,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Safari Reverse Image Search Extension/Safari_Reverse_Image_Search_Extension.entitlements";
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59L5AB88N5;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -545,7 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Safari Reverse Image Search Extension/Safari_Reverse_Image_Search_Extension.entitlements";
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59L5AB88N5;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -568,7 +452,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Safari Reverse Image Search/Safari_Reverse_Image_Search.entitlements";
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 59L5AB88N5;
@@ -590,7 +474,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Safari Reverse Image Search/Safari_Reverse_Image_Search.entitlements";
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 59L5AB88N5;
@@ -603,90 +487,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.RohitBatra.Safari-Reverse-Image-Search";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		724696E3246DE79D00835E66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 59L5AB88N5;
-				INFOPLIST_FILE = "Safari Reverse Image SearchTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RohitBatra.Safari-Reverse-Image-SearchTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Safari Reverse Image Search.app/Contents/MacOS/Safari Reverse Image Search";
-			};
-			name = Debug;
-		};
-		724696E4246DE79D00835E66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 59L5AB88N5;
-				INFOPLIST_FILE = "Safari Reverse Image SearchTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RohitBatra.Safari-Reverse-Image-SearchTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Safari Reverse Image Search.app/Contents/MacOS/Safari Reverse Image Search";
-			};
-			name = Release;
-		};
-		724696E6246DE79D00835E66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 59L5AB88N5;
-				INFOPLIST_FILE = "Safari Reverse Image SearchUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RohitBatra.Safari-Reverse-Image-SearchUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Safari Reverse Image Search";
-			};
-			name = Debug;
-		};
-		724696E7246DE79D00835E66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 59L5AB88N5;
-				INFOPLIST_FILE = "Safari Reverse Image SearchUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RohitBatra.Safari-Reverse-Image-SearchUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Safari Reverse Image Search";
 			};
 			name = Release;
 		};
@@ -716,24 +516,6 @@
 			buildConfigurations = (
 				724696E0246DE79D00835E66 /* Debug */,
 				724696E1246DE79D00835E66 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		724696E2246DE79D00835E66 /* Build configuration list for PBXNativeTarget "Safari Reverse Image SearchTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				724696E3246DE79D00835E66 /* Debug */,
-				724696E4246DE79D00835E66 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		724696E5246DE79D00835E66 /* Build configuration list for PBXNativeTarget "Safari Reverse Image SearchUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				724696E6246DE79D00835E66 /* Debug */,
-				724696E7246DE79D00835E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
