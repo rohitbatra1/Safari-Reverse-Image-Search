@@ -15,7 +15,7 @@
 		724696C5246DE79D00835E66 /* Safari Reverse Image Search Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 724696C4246DE79D00835E66 /* Safari Reverse Image Search Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		724696CA246DE79D00835E66 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724696C9246DE79D00835E66 /* Cocoa.framework */; };
 		724696CD246DE79D00835E66 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724696CC246DE79D00835E66 /* SafariExtensionHandler.swift */; };
-		724696D5246DE79D00835E66 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 724696D4246DE79D00835E66 /* script.js */; };
+		724696D5246DE79D00835E66 /* imageSearch.js in Resources */ = {isa = PBXBuildFile; fileRef = 724696D4246DE79D00835E66 /* imageSearch.js */; };
 		72539643246F21E600E18791 /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72539642246F21E600E18791 /* Contact.storyboard */; };
 		72539645246F221300E18791 /* ContactWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72539644246F221300E18791 /* ContactWindowController.swift */; };
 		72539647246F23CE00E18791 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72539646246F23CE00E18791 /* ContactViewController.swift */; };
@@ -73,7 +73,7 @@
 		724696C9246DE79D00835E66 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		724696CC246DE79D00835E66 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
 		724696D3246DE79D00835E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		724696D4246DE79D00835E66 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		724696D4246DE79D00835E66 /* imageSearch.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = imageSearch.js; sourceTree = "<group>"; };
 		724696D8246DE79D00835E66 /* Safari_Reverse_Image_Search_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Safari_Reverse_Image_Search_Extension.entitlements; sourceTree = "<group>"; };
 		72539642246F21E600E18791 /* Contact.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Contact.storyboard; sourceTree = "<group>"; };
 		72539644246F221300E18791 /* ContactWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactWindowController.swift; sourceTree = "<group>"; };
@@ -160,7 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				724696CC246DE79D00835E66 /* SafariExtensionHandler.swift */,
-				724696D4246DE79D00835E66 /* script.js */,
+				724696D4246DE79D00835E66 /* imageSearch.js */,
 				724696D3246DE79D00835E66 /* Info.plist */,
 				724696D8246DE79D00835E66 /* Safari_Reverse_Image_Search_Extension.entitlements */,
 			);
@@ -333,7 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				724696D5246DE79D00835E66 /* script.js in Resources */,
+				724696D5246DE79D00835E66 /* imageSearch.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

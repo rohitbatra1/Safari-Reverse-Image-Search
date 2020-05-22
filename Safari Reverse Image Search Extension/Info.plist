@@ -32,7 +32,7 @@
 		<array>
 			<dict>
 				<key>Script</key>
-				<string>script.js</string>
+				<string>imageSearch.js</string>
 			</dict>
 		</array>
 		<key>SFSafariContextMenu</key>
