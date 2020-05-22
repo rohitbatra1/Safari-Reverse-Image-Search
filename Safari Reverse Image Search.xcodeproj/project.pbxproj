@@ -19,6 +19,7 @@
 		72539643246F21E600E18791 /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72539642246F21E600E18791 /* Contact.storyboard */; };
 		72539645246F221300E18791 /* ContactWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72539644246F221300E18791 /* ContactWindowController.swift */; };
 		72539647246F23CE00E18791 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72539646246F23CE00E18791 /* ContactViewController.swift */; };
+		72A20840247893B9002877B0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 72A2083F247893B9002877B0 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		72539642246F21E600E18791 /* Contact.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Contact.storyboard; sourceTree = "<group>"; };
 		72539644246F221300E18791 /* ContactWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactWindowController.swift; sourceTree = "<group>"; };
 		72539646246F23CE00E18791 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		72A2083F247893B9002877B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		72469692246DE79A00835E66 = {
 			isa = PBXGroup;
 			children = (
+				72A2083F247893B9002877B0 /* README.md */,
 				7246969D246DE79A00835E66 /* Safari Reverse Image Search */,
 				724696CB246DE79D00835E66 /* Safari Reverse Image Search Extension */,
 				724696C8246DE79D00835E66 /* Frameworks */,
@@ -232,6 +235,7 @@
 			files = (
 				7246969F246DE79A00835E66 /* Safari_Reverse_Image_Search.entitlements in Resources */,
 				72539643246F21E600E18791 /* Contact.storyboard in Resources */,
+				72A20840247893B9002877B0 /* README.md in Resources */,
 				724696A8246DE79D00835E66 /* Assets.xcassets in Resources */,
 				724696A4246DE79A00835E66 /* Main.storyboard in Resources */,
 			);
