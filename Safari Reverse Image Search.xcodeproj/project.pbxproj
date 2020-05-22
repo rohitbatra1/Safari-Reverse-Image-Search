@@ -463,6 +463,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 59L5AB88N5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Safari Reverse Image Search/Info.plist";
@@ -485,6 +486,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 59L5AB88N5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Safari Reverse Image Search/Info.plist";
