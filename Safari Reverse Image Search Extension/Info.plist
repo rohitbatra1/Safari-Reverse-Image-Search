@@ -43,6 +43,12 @@
 				<key>Text</key>
 				<string>Search Image with Google</string>
 			</dict>
+			<dict>
+				<key>Command</key>
+				<string>TinEye</string>
+				<key>Text</key>
+				<string>Search Image with TinEye</string>
+			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
@@ -53,6 +59,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2020 Rohit Batra. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
-	<string>Enables Reverse Image Search Through Google as a Context Menu Option.</string>
+	<string>Enables Reverse Image Search Through Google &amp; TinEye as Context Menu Options.</string>
 </dict>
 </plist>

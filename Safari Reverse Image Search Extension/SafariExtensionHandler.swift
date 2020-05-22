@@ -60,6 +60,26 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
                     })
                 }
         }
+        if (command == "TinEye"){
+            
+            var imageSearch = "https://tineye.com/search/?url="
+            var imageLink = userInfo!["url"] as! String
+            
+            //percent encode image URL
+            imageLink = imageLink.addingPercentEncoding(withAllowedCharacters: .alphanumerics)!
+            
+            imageSearch += imageLink
+            let myUrl = URL(string: imageSearch)!
+
+            
+            // This grabs the active window.
+            SFSafariApplication.getActiveWindow { (activeWindow) in
+                
+                    // Request a new tab on the active window, with the URL we want.
+                    activeWindow?.openTab(with: myUrl, makeActiveIfPossible: true, completionHandler: {_ in
+                    })
+                }
+        }
         
     }
 
