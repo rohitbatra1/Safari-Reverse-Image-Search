@@ -20,7 +20,6 @@
 		724696CF246DE79D00835E66 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724696CE246DE79D00835E66 /* SafariExtensionViewController.swift */; };
 		724696D2246DE79D00835E66 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724696D0246DE79D00835E66 /* SafariExtensionViewController.xib */; };
 		724696D5246DE79D00835E66 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 724696D4246DE79D00835E66 /* script.js */; };
-		724696D7246DE79D00835E66 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 724696D6246DE79D00835E66 /* ToolbarItemIcon.pdf */; };
 		72539643246F21E600E18791 /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72539642246F21E600E18791 /* Contact.storyboard */; };
 		72539645246F221300E18791 /* ContactWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72539644246F221300E18791 /* ContactWindowController.swift */; };
 		72539647246F23CE00E18791 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72539646246F23CE00E18791 /* ContactViewController.swift */; };
@@ -85,7 +84,6 @@
 		724696D1246DE79D00835E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		724696D3246DE79D00835E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		724696D4246DE79D00835E66 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
-		724696D6246DE79D00835E66 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		724696D8246DE79D00835E66 /* Safari_Reverse_Image_Search_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Safari_Reverse_Image_Search_Extension.entitlements; sourceTree = "<group>"; };
 		72539642246F21E600E18791 /* Contact.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Contact.storyboard; sourceTree = "<group>"; };
 		72539644246F221300E18791 /* ContactWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactWindowController.swift; sourceTree = "<group>"; };
@@ -196,7 +194,6 @@
 				724696CE246DE79D00835E66 /* SafariExtensionViewController.swift */,
 				724696D0246DE79D00835E66 /* SafariExtensionViewController.xib */,
 				724696D3246DE79D00835E66 /* Info.plist */,
-				724696D6246DE79D00835E66 /* ToolbarItemIcon.pdf */,
 				724696D8246DE79D00835E66 /* Safari_Reverse_Image_Search_Extension.entitlements */,
 			);
 			path = "Safari Reverse Image Search Extension";
@@ -368,7 +365,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				724696D7246DE79D00835E66 /* ToolbarItemIcon.pdf in Resources */,
 				724696D2246DE79D00835E66 /* SafariExtensionViewController.xib in Resources */,
 				724696D5246DE79D00835E66 /* script.js in Resources */,
 			);
