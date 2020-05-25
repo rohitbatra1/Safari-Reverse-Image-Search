@@ -7,7 +7,7 @@ Enables Reverse Image Search Through Google & TinEye as Context Menu Options.
 ![Alt Text](https://i.ibb.co/c1jY4QQ/Demo.gif)
 
 # Installation
-1. Install the App from the Mac App Store.
+1. Install the App from the [Mac App Store](https://apps.apple.com/us/app/imagefinder-for-safari/id1514863337?ls=1).
 2. Enable the Extension in Safari Preferences.
 
 # Usage
