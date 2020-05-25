@@ -1,4 +1,5 @@
-# ImageFinder for Safari®
+# ImageFinder for Safari® <img src="Safari Reverse Image Search/Assets.xcassets/AppIcon.appiconset/512_1X.png" alt="logo" width="32" height="32"> 
+
 Easily Reverse Image Search in Safari.
 
 Enables Reverse Image Search Through Google & TinEye as Context Menu Options.
