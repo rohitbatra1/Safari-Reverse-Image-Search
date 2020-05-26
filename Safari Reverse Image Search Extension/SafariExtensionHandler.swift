@@ -21,9 +21,8 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
 
 //        show menu option if image is selected and image is not embedded
         if (userInfo!["isImage"] as! String == "IMG"){
-            let x = userInfo!["url"] as! String
             
-            if (!x.contains("data:image")){
+            if (!(userInfo!["url"] as! String).contains("data:image")){
                 validationHandler(false, nil)
             }
             else{
@@ -35,6 +34,15 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
             validationHandler(true, nil)
         }
 
+    }
+    
+    func openTab(newTabURL: URL){
+        // This grabs the active window.
+        SFSafariApplication.getActiveWindow { (activeWindow) in
+            // Request a new tab on the active window, with the URL we want.
+            activeWindow?.openTab(with: newTabURL, makeActiveIfPossible: true, completionHandler: {_ in
+            })
+        }
     }
     
     override func contextMenuItemSelected(withCommand command: String, in page: SFSafariPage, userInfo: [String : Any]? = nil) {
@@ -49,16 +57,11 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
             imageLink = imageLink.addingPercentEncoding(withAllowedCharacters: .alphanumerics)!
             
             imageSearch += imageLink
-            let myUrl = URL(string: imageSearch)!
-
+            let myURL = URL(string: imageSearch)!
             
-            // This grabs the active window.
-            SFSafariApplication.getActiveWindow { (activeWindow) in
-                
-                    // Request a new tab on the active window, with the URL we want.
-                    activeWindow?.openTab(with: myUrl, makeActiveIfPossible: true, completionHandler: {_ in
-                    })
-                }
+            //open the search results in a new tab
+            openTab(newTabURL: myURL)
+            
         }
         if (command == "TinEye"){
             
@@ -69,16 +72,11 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
             imageLink = imageLink.addingPercentEncoding(withAllowedCharacters: .alphanumerics)!
             
             imageSearch += imageLink
-            let myUrl = URL(string: imageSearch)!
+            let myURL = URL(string: imageSearch)!
 
-            
-            // This grabs the active window.
-            SFSafariApplication.getActiveWindow { (activeWindow) in
-                
-                    // Request a new tab on the active window, with the URL we want.
-                    activeWindow?.openTab(with: myUrl, makeActiveIfPossible: true, completionHandler: {_ in
-                    })
-                }
+            //open the search results in a new tab
+            openTab(newTabURL: myURL)
+
         }
         
     }
