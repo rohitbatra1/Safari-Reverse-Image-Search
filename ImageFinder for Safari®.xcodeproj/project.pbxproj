@@ -418,7 +418,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Safari Reverse Image Search Extension/Safari_Reverse_Image_Search_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 59L5AB88N5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Safari Reverse Image Search Extension/Info.plist";
@@ -427,6 +427,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.RohitBatra.Safari-Reverse-Image-Search.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -440,7 +441,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Safari Reverse Image Search Extension/Safari_Reverse_Image_Search_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 59L5AB88N5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Safari Reverse Image Search Extension/Info.plist";
@@ -449,6 +450,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.RohitBatra.Safari-Reverse-Image-Search.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

@@ -48,37 +48,46 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
     override func contextMenuItemSelected(withCommand command: String, in page: SFSafariPage, userInfo: [String : Any]? = nil) {
         
 //        Handling when context menu option is selected.
-        if (command == "Google"){
-            
-            var imageSearch = "http://images.google.com/searchbyimage?image_url="
-            var imageLink = userInfo!["url"] as! String
-            
-            //percent encode image URL
-            imageLink = imageLink.addingPercentEncoding(withAllowedCharacters: .alphanumerics)!
-            
-            imageSearch += imageLink
-            let myURL = URL(string: imageSearch)!
-            
-            //open the search results in a new tab
-            openTab(newTabURL: myURL)
-            
-        }
-        if (command == "TinEye"){
-            
-            var imageSearch = "https://tineye.com/search/?url="
-            var imageLink = userInfo!["url"] as! String
-            
-            //percent encode image URL
-            imageLink = imageLink.addingPercentEncoding(withAllowedCharacters: .alphanumerics)!
-            
-            imageSearch += imageLink
-            let myURL = URL(string: imageSearch)!
+        switch command {
+            case "Google":
+                var imageSearch = "http://images.google.com/searchbyimage?image_url="
+                var imageLink = userInfo!["url"] as! String
+                
+                //percent encode image URL
+                imageLink = imageLink.addingPercentEncoding(withAllowedCharacters: .alphanumerics)!
+                
+                imageSearch += imageLink
+                let myURL = URL(string: imageSearch)!
+                
+                //open the search results in a new tab
+                openTab(newTabURL: myURL)
+            case "TinEye":
+                var imageSearch = "https://tineye.com/search/?url="
+                var imageLink = userInfo!["url"] as! String
+                
+                //percent encode image URL
+                imageLink = imageLink.addingPercentEncoding(withAllowedCharacters: .alphanumerics)!
+                
+                imageSearch += imageLink
+                let myURL = URL(string: imageSearch)!
 
-            //open the search results in a new tab
-            openTab(newTabURL: myURL)
+                //open the search results in a new tab
+                openTab(newTabURL: myURL)
+            case "Yandex":
+                var imageSearch = "https://yandex.com/images/search?img_url="
+                var imageLink = userInfo!["url"] as! String
+                
+                //percent encode image URL
+                imageLink = imageLink.addingPercentEncoding(withAllowedCharacters: .alphanumerics)!
+                
+                imageSearch += imageLink + "&rpt=imageview"
+                let myURL = URL(string: imageSearch)!
 
+                //open the search results in a new tab
+                openTab(newTabURL: myURL)
+            default:
+                NSLog("Command not accounted for")
         }
-        
     }
 
 }
