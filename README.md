@@ -1,8 +1,8 @@
-# ImageFinder for Safari® <img src="Safari Reverse Image Search/Assets.xcassets/AppIcon.appiconset/512_1X.png" alt="logo" width="32" height="32"> 
+# ImageFinder for Safari <img src="Safari Reverse Image Search/Assets.xcassets/AppIcon.appiconset/512_1X.png" alt="logo" width="48" height="48"> 
 
-Easily Reverse Image Search in Safari.
+ImageFinder is a Safari App Extension which allows users to easily reverse image search in Safari.
 
-Enables Reverse Image Search Through Google, TinEye, & Yandex as Context Menu Options.
+It currently enables reverse image search through Google, TinEye, & Yandex as context menu options.
 
 # Demo
 ![Alt Text](https://i.ibb.co/c1jY4QQ/Demo.gif)
@@ -14,4 +14,7 @@ Enables Reverse Image Search Through Google, TinEye, & Yandex as Context Menu Op
 # Usage
 Right-Click on an Image in Safari and select either "Search Image with Google", "Search Image with TinEye", or "Search Image with Yandex" and the results will open in a new tab.
 
+
+# Technologies Used
+Xcode, Swift, JavaScript
 
