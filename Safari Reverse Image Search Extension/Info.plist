@@ -51,6 +51,12 @@
 			</dict>
 			<dict>
 				<key>Command</key>
+				<string>Bing</string>
+				<key>Text</key>
+				<string>Search Image with Bing</string>
+			</dict>
+			<dict>
+				<key>Command</key>
 				<string>Yandex</string>
 				<key>Text</key>
 				<string>Search Image with Yandex</string>
@@ -65,6 +71,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2020 Rohit Batra. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
-	<string>Enables Reverse Image Search Through Google &amp; TinEye as Context Menu Options.</string>
+	<string>Enables Reverse Image Search Through Google, TinEye, Bing, &amp; Yandex as Context Menu Options.</string>
 </dict>
 </plist>

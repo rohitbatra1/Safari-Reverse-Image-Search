@@ -73,6 +73,18 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
 
                 //open the search results in a new tab
                 openTab(newTabURL: myURL)
+            case "Bing":
+                var imageSearch = "https://www.bing.com/images/search?view=detailv2&iss=sbi&sim=1&q=imgurl:"
+                var imageLink = userInfo!["url"] as! String
+                
+                //percent encode image URL
+                imageLink = imageLink.addingPercentEncoding(withAllowedCharacters: .alphanumerics)!
+                
+                imageSearch += imageLink
+                let myURL = URL(string: imageSearch)!
+
+                //open the search results in a new tab
+                openTab(newTabURL: myURL)
             case "Yandex":
                 var imageSearch = "https://yandex.com/images/search?img_url="
                 var imageLink = userInfo!["url"] as! String
