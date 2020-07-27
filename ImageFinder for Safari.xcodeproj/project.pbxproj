@@ -12,7 +12,7 @@
 		724696A4246DE79A00835E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724696A2246DE79A00835E66 /* Main.storyboard */; };
 		724696A6246DE79A00835E66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724696A5246DE79A00835E66 /* ViewController.swift */; };
 		724696A8246DE79D00835E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 724696A7246DE79D00835E66 /* Assets.xcassets */; };
-		724696C5246DE79D00835E66 /* ImageFinder for Safari® Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 724696C4246DE79D00835E66 /* ImageFinder for Safari® Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		724696C5246DE79D00835E66 /* ImageFinder for Safari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 724696C4246DE79D00835E66 /* ImageFinder for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		724696CA246DE79D00835E66 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724696C9246DE79D00835E66 /* Cocoa.framework */; };
 		724696CD246DE79D00835E66 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724696CC246DE79D00835E66 /* SafariExtensionHandler.swift */; };
 		724696D5246DE79D00835E66 /* imageSearch.js in Resources */ = {isa = PBXBuildFile; fileRef = 724696D4246DE79D00835E66 /* imageSearch.js */; };
@@ -40,7 +40,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				724696C5246DE79D00835E66 /* ImageFinder for Safari® Extension.appex in Embed App Extensions */,
+				724696C5246DE79D00835E66 /* ImageFinder for Safari Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,14 +48,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7246969B246DE79A00835E66 /* ImageFinder for Safari®.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImageFinder for Safari®.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7246969B246DE79A00835E66 /* ImageFinder for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImageFinder for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7246969E246DE79A00835E66 /* Safari_Reverse_Image_Search.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Safari_Reverse_Image_Search.entitlements; sourceTree = "<group>"; };
 		724696A0246DE79A00835E66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		724696A3246DE79A00835E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		724696A5246DE79A00835E66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		724696A7246DE79D00835E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		724696A9246DE79D00835E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		724696C4246DE79D00835E66 /* ImageFinder for Safari® Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ImageFinder for Safari® Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		724696C4246DE79D00835E66 /* ImageFinder for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ImageFinder for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		724696C9246DE79D00835E66 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		724696CC246DE79D00835E66 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
 		724696D3246DE79D00835E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,8 +102,8 @@
 		7246969C246DE79A00835E66 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7246969B246DE79A00835E66 /* ImageFinder for Safari®.app */,
-				724696C4246DE79D00835E66 /* ImageFinder for Safari® Extension.appex */,
+				7246969B246DE79A00835E66 /* ImageFinder for Safari.app */,
+				724696C4246DE79D00835E66 /* ImageFinder for Safari Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,9 +154,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7246969A246DE79A00835E66 /* ImageFinder for Safari® */ = {
+		7246969A246DE79A00835E66 /* ImageFinder for Safari */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 724696DF246DE79D00835E66 /* Build configuration list for PBXNativeTarget "ImageFinder for Safari®" */;
+			buildConfigurationList = 724696DF246DE79D00835E66 /* Build configuration list for PBXNativeTarget "ImageFinder for Safari" */;
 			buildPhases = (
 				72469697246DE79A00835E66 /* Sources */,
 				72469698246DE79A00835E66 /* Frameworks */,
@@ -168,14 +168,14 @@
 			dependencies = (
 				724696C7246DE79D00835E66 /* PBXTargetDependency */,
 			);
-			name = "ImageFinder for Safari®";
+			name = "ImageFinder for Safari";
 			productName = "Safari Reverse Image Search";
-			productReference = 7246969B246DE79A00835E66 /* ImageFinder for Safari®.app */;
+			productReference = 7246969B246DE79A00835E66 /* ImageFinder for Safari.app */;
 			productType = "com.apple.product-type.application";
 		};
-		724696C3246DE79D00835E66 /* ImageFinder for Safari® Extension */ = {
+		724696C3246DE79D00835E66 /* ImageFinder for Safari Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 724696DB246DE79D00835E66 /* Build configuration list for PBXNativeTarget "ImageFinder for Safari® Extension" */;
+			buildConfigurationList = 724696DB246DE79D00835E66 /* Build configuration list for PBXNativeTarget "ImageFinder for Safari Extension" */;
 			buildPhases = (
 				724696C0246DE79D00835E66 /* Sources */,
 				724696C1246DE79D00835E66 /* Frameworks */,
@@ -185,9 +185,9 @@
 			);
 			dependencies = (
 			);
-			name = "ImageFinder for Safari® Extension";
+			name = "ImageFinder for Safari Extension";
 			productName = "Safari Reverse Image Search Extension";
-			productReference = 724696C4246DE79D00835E66 /* ImageFinder for Safari® Extension.appex */;
+			productReference = 724696C4246DE79D00835E66 /* ImageFinder for Safari Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 72469696246DE79A00835E66 /* Build configuration list for PBXProject "ImageFinder for Safari®" */;
+			buildConfigurationList = 72469696246DE79A00835E66 /* Build configuration list for PBXProject "ImageFinder for Safari" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7246969A246DE79A00835E66 /* ImageFinder for Safari® */,
-				724696C3246DE79D00835E66 /* ImageFinder for Safari® Extension */,
+				7246969A246DE79A00835E66 /* ImageFinder for Safari */,
+				724696C3246DE79D00835E66 /* ImageFinder for Safari Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -280,7 +280,7 @@
 /* Begin PBXTargetDependency section */
 		724696C7246DE79D00835E66 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 724696C3246DE79D00835E66 /* ImageFinder for Safari® Extension */;
+			target = 724696C3246DE79D00835E66 /* ImageFinder for Safari Extension */;
 			targetProxy = 724696C6246DE79D00835E66 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -351,7 +351,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -406,6 +406,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -507,7 +508,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		72469696246DE79A00835E66 /* Build configuration list for PBXProject "ImageFinder for Safari®" */ = {
+		72469696246DE79A00835E66 /* Build configuration list for PBXProject "ImageFinder for Safari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				724696D9246DE79D00835E66 /* Debug */,
@@ -516,7 +517,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		724696DB246DE79D00835E66 /* Build configuration list for PBXNativeTarget "ImageFinder for Safari® Extension" */ = {
+		724696DB246DE79D00835E66 /* Build configuration list for PBXNativeTarget "ImageFinder for Safari Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				724696DC246DE79D00835E66 /* Debug */,
@@ -525,7 +526,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		724696DF246DE79D00835E66 /* Build configuration list for PBXNativeTarget "ImageFinder for Safari®" */ = {
+		724696DF246DE79D00835E66 /* Build configuration list for PBXNativeTarget "ImageFinder for Safari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				724696E0246DE79D00835E66 /* Debug */,

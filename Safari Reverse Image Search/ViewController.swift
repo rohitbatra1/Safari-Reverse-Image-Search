@@ -16,7 +16,7 @@ class ViewController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.appNameLabel.stringValue = "ImageFinder for Safari®";
+        self.appNameLabel.stringValue = "ImageFinder for Safari";
     }
     
     @IBAction func openSafariExtensionPreferences(_ sender: AnyObject?) {
